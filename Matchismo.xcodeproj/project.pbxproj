@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42F5EE1171CEB3500AF0B98 /* tpole-card.png in Resources */ = {isa = PBXBuildFile; fileRef = F42F5EE0171CEB3500AF0B98 /* tpole-card.png */; };
 		F48962AE171B43DC000E6EAF /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F48962AD171B43DC000E6EAF /* CardMatchingGame.m */; };
 		F4B9A9E0171798390062DC7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B9A9DF171798390062DC7A /* UIKit.framework */; };
 		F4B9A9E2171798390062DC7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B9A9E1171798390062DC7A /* Foundation.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42F5EE0171CEB3500AF0B98 /* tpole-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tpole-card.png"; sourceTree = "<group>"; };
 		F48962AC171B43DB000E6EAF /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		F48962AD171B43DC000E6EAF /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		F4B9A9DC171798390062DC7A /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 			children = (
 				F4B9AA0517179D270062DC7A /* Model */,
 				F4B9A9F7171798390062DC7A /* MainStoryboard.storyboard */,
+				F42F5EE0171CEB3500AF0B98 /* tpole-card.png */,
 				F4B9A9FA171798390062DC7A /* CardGameViewController.h */,
 				F4B9A9FB171798390062DC7A /* CardGameViewController.m */,
 				F4B9A9E6171798390062DC7A /* Supporting Files */,
@@ -197,6 +200,7 @@
 				F4B9A9F4171798390062DC7A /* Default@2x.png in Resources */,
 				F4B9A9F6171798390062DC7A /* Default-568h@2x.png in Resources */,
 				F4B9A9F9171798390062DC7A /* MainStoryboard.storyboard in Resources */,
+				F42F5EE1171CEB3500AF0B98 /* tpole-card.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

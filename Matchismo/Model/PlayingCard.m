@@ -15,11 +15,31 @@
     int score = 0;
     
     if ([otherCards count] == 1) {
+        // two card mode
         PlayingCard *otherCard = [otherCards lastObject];
         if ([otherCard.suit isEqualToString:self.suit]) {
             score = 1;
         } else if (otherCard.rank == self.rank) {
             score = 4;
+        }
+    } else if ([otherCards count] == 2) {
+        // three card mode
+        BOOL suitMatch = YES;
+        BOOL rankMatch = YES;
+        
+        for (PlayingCard *otherCard in otherCards) {
+            if (![otherCard.suit isEqualToString:self.suit]) {
+                suitMatch = NO;
+            }
+            if (otherCard.rank != self.rank) {
+                rankMatch = NO;
+            }
+        }
+        
+        if (rankMatch) {
+            score = 100;
+        } else if (suitMatch) {
+            score = 5;
         }
     }
     
@@ -64,6 +84,12 @@
 {
     if (rank <= [PlayingCard maxRank]) {
         _rank = rank;
-    } }
+    }
+}
+
+- (NSString *)description
+{
+    return self.contents;
+}
 
 @end

@@ -22,5 +22,6 @@
 
 @property (readonly, nonatomic) int score;
 @property (readonly, nonatomic) NSString *status;
+@property (nonatomic, getter=isThreeCardMatch) BOOL threeCardMatch;
 
 @end
